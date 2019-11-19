@@ -1,6 +1,17 @@
 # SqlSyringe.Practice.Core3
 A practice demo for SqlSyringe, using .NET Core -3.0-  2.2
 
+Run it locally:
+
+Ubuntu:
+
+- git clone https://github.com/suterma/SqlSyringe.Practice.Core3.git
+- dotnet build
+- dotnet run
+- Browse to the indicated URL, e.g. https://localhost:5001
+- Click on the SqlSyringe link
+
+
 
 Example Queries:
 
