@@ -1,6 +1,12 @@
 # SqlSyringe.Practice.Core3
 A practice demo for SqlSyringe, using .NET Core -3.0-  2.2
 
+
+Example Queries:
+
+Get all Tables:
+SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
+
 //TODO pending
 # Deploy on azure
 
