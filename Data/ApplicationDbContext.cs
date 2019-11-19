@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace SylSyringe.Practice.Core3.Data
+namespace SqlSyringe.Practice.Core22.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

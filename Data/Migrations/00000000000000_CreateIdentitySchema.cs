@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SylSyringe.Practice.Core3.Data.Migrations
+namespace SqlSyringe.Practice.Core22.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
