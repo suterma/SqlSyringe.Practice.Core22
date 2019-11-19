@@ -15,7 +15,8 @@ The web app is deployed for you
  - Select the GitHup icon on the left
  - Clone from this repo using it's URL
  - Look for the web console, until it reaches 100% checkout
- - Build using "dotnet build SqlSyringe.Practice.Core22.csproj"
+ - Build using "dotnet build"
+ - dotnet run (//TODO only works locally)
  - Hit the play button on the left
 
 
