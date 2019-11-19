@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SylSyringe.Practice.Core3", "SylSyringe.Practice.Core3.csproj", "{19098061-A85D-4E15-8C69-BA322681CCDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19098061-A85D-4E15-8C69-BA322681CCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19098061-A85D-4E15-8C69-BA322681CCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19098061-A85D-4E15-8C69-BA322681CCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19098061-A85D-4E15-8C69-BA322681CCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB70B282-28A0-4391-A977-73E7D3B44713}
+	EndGlobalSection
+EndGlobal
