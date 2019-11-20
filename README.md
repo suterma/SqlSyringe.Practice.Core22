@@ -7,6 +7,7 @@ Ubuntu:
 
 - git clone https://github.com/suterma/SqlSyringe.Practice.Core3.git
 - dotnet build
+- Create the database: `dotnet ef database update` 
 - dotnet run
 - Browse to the indicated URL, e.g. https://localhost:5001
 - Click on the SqlSyringe link
