@@ -9,7 +9,7 @@ A practice demo for SqlSyringe, using .NET 2.2 Core, for running locally with a 
 - Build and run the solution
 - Click on the SqlSyringe link
 
-## Rn on Ubuntu
+## Run on Ubuntu
 
 Since LocalDB is only available on Windows, you must create and configure an alternative database. 
 On the command line
