@@ -1,25 +1,30 @@
-# SqlSyringe.Practice.Core3
-A practice demo for SqlSyringe, using .NET Core -3.0-  2.2
+# SqlSyringe.Practice.Core22
+A practice demo for SqlSyringe, using .NET 2.2
 
 Run it locally:
 
-Ubuntu:
+Windows:
 
-- git clone https://github.com/suterma/SqlSyringe.Practice.Core3.git
-- dotnet build
-- Create the database: `dotnet ef database update` OR `Update-Database` in the Package Manager Console
-- dotnet run
+- Clone this repository (e.g. using the [GitHub Desktop](https://desktop.github.com/) or the [Git For Windows](https://gitforwindows.org/) client)
+- In Visual Studio 2019, open the solution
+- Create the database: on the command line, run `dotnet ef database update` or in Visual Studio 2019, run `Update-Database` in the Package Manager Console
+- build and run the solution
+- Click on the SqlSyringe link
+
+Ubuntu:
+On the command line
+`git clone https://github.com/suterma/SqlSyringe.Practice.Core22.git`
+`dotnet build`
+`dotnet ef database update`
+`dotnet run`
 - Browse to the indicated URL, e.g. https://localhost:5001
 - Click on the SqlSyringe link
 
-
-
 Example Queries:
 
-Get all Tables:
-SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
+Get all Tables: `SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'`
 
-//TODO pending
+<!---
 # Deploy on azure
 
 To deploy on azure, go to 
@@ -36,5 +41,5 @@ The web app is deployed for you
  - Build using "dotnet build"
  - dotnet run (//TODO only works locally)
  - Hit the play button on the left
-
+--->
 
