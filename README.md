@@ -1,5 +1,5 @@
 # SqlSyringe.Practice.Core22
-A practice demo for [SqlSyringe](https://github.com/suterma/SqlSyringe), using .NET 2.2 Core, for running locally with a [SQL Server Express LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15)
+A practice demo for [SqlSyringe](https://github.com/suterma/SqlSyringe), using .NET Core 2.2, for running locally with a [SQL Server Express LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15)
 
 ## Run on Windows
 
