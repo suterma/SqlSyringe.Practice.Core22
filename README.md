@@ -1,9 +1,7 @@
 # SqlSyringe.Practice.Core22
-A practice demo for SqlSyringe, using .NET 2.2
+A practice demo for SqlSyringe, using .NET 2.2 Core, for running locally with a [SQL Server Express LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15)
 
-Run it locally:
-
-Windows:
+## Run on Windows
 
 - Clone this repository (e.g. using the [GitHub Desktop](https://desktop.github.com/) or the [Git For Windows](https://gitforwindows.org/) client)
 - In Visual Studio 2019, open the solution
@@ -11,16 +9,18 @@ Windows:
 - build and run the solution
 - Click on the SqlSyringe link
 
-Ubuntu:
+## Rn on Ubuntu
+
+Since LocalDB is only available on Windows, you must create and configure an alternative database. 
 On the command line
 `git clone https://github.com/suterma/SqlSyringe.Practice.Core22.git`
+Create and configure an alternative database
 `dotnet build`
-`dotnet ef database update`
 `dotnet run`
 - Browse to the indicated URL, e.g. https://localhost:5001
 - Click on the SqlSyringe link
 
-Example Queries:
+## Example Queries:
 
 Get all Tables: `SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'`
 
