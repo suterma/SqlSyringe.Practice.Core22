@@ -20,6 +20,11 @@ Create and configure an alternative database
 - Browse to the indicated URL, e.g. https://localhost:5001
 - Click on the SqlSyringe link
 
+## Deploy on Azure
+Use this button to automatically deploy this web app as your own Azure App
+
+<a href="https://azuredeploy.net/" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+
 ## Example Queries:
 
 Get all Tables: `SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'`
