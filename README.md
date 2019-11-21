@@ -6,7 +6,7 @@ A practice demo for SqlSyringe, using .NET 2.2 Core, for running locally with a 
 - Clone this repository (e.g. using the [GitHub Desktop](https://desktop.github.com/) or the [Git For Windows](https://gitforwindows.org/) client)
 - In Visual Studio 2019, open the solution
 - Create the database: on the command line, run `dotnet ef database update` or in Visual Studio 2019, run `Update-Database` in the Package Manager Console
-- build and run the solution
+- Build and run the solution
 - Click on the SqlSyringe link
 
 ## Rn on Ubuntu
